@@ -23,6 +23,10 @@ label.logo{
     font-weight: bold;
 }
 
+label.logo:hover{
+    color: black;
+    cursor: pointer;
+}
  a.active,a:hover{
     background-color: black;
 } 
@@ -47,3 +51,72 @@ nav ul li{
 } 
 
 
+
+
+
+
+.example-card
+{
+    max-width: 400px;
+    height: 250px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(208, 8, 227, 0.19);
+  text-align: center;
+}
+.card.class{
+    margin: 3%;
+    width: 20%;
+    text-align: left;
+    float: left;
+}
+
+ .container{
+     display: flex;
+height: 70vh;
+    
+} 
+.row{
+    display: flex;
+    gap: 6rem;
+    text-align: center;
+    justify-content: center;
+}
+h3{
+    margin: 0;
+    font-size: 2rem;
+    text-align: center;
+}
+
+
+
+.div1,.div2,.div3{
+    width: 21em;
+    height: 25em;
+    background-color: #fff;
+    box-shadow: 5px 5px 25px #0000005f;
+    padding: 10px 30px;
+    border-radius: 8px;
+    margin-left: 33px;
+    margin-top: 150px;
+    
+}
+
+.div1:hover,.div2:hover{
+    transform: scale(1.008);
+    box-shadow: 3px 3px 10px  #3289ed;
+}
+
+button{
+    padding: 10px 18px;
+    margin-top: 20px;
+    background-color: #3289ed;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    transition: 0.2s;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-weight: bold;
+}
+button:hover{
+    background-color: #003b8b;
+}
